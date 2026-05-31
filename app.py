@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+#os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 #%%writefile app.py
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
